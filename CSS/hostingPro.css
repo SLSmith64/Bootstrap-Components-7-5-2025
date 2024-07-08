@@ -1,0 +1,130 @@
+:root{
+    --ss-title-font:"Antonio", sans-serif ;
+    --ss-body-font:  "Roboto", sans-serif;
+    --ss-subtitle-font: "Fira Sans", sans-serif;
+    --ss-title-color: #00133d;
+    --ss-dark-color: #212121;
+    --ss-light-color: #e7e7e7;
+}
+
+main{
+    background-color: var(--ss-light-color);    
+}
+
+body{
+    font-family: var(--ss-body-font);
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.mainHeader{
+    background-image: url(/img/HostingPro576.png);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: var(--bs-primary-bg-subtle);    
+}
+
+.mainWrapper{
+    font-size: 1rem;
+    width: 50%;
+}
+
+.mainTitle{
+    font-family: var(--ss-title-font);
+    font-weight: 700;
+    color: var(--ss-title-color);
+    font-size: 1.2rem;
+}
+
+.subTitle{
+    font-family: var(--ss-subtitle-font);
+    font-weight: 300;
+    font-size: .6em;
+    line-height: 1em;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+.mainHeader{
+    background-image: url(/img/HostingPro768.png);
+    height: 200px;
+}
+    
+.mainWrapper{
+    font-size: 1.6rem;
+}
+
+.mainTitle{
+   line-height:1.6rem;
+}
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px)  {
+  .mainHeader{
+    background-image: url(/img/HostingPro992.png);
+    height: 300px;
+}
+    
+.mainWrapper{
+    font-size: 1.6rem;
+    width: 47%;
+}
+
+.mainTitle{
+   line-height:1.6rem;
+}
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    .mainHeader{
+    background-image: url(/img/HostingPro1200.png);
+    height: 400px;
+}
+    
+.mainWrapper{
+    font-size: 2.5rem;
+    width: 50%;
+}
+
+.mainTitle{
+   line-height: 2.5rem;
+}
+
+} 
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+ .mainHeader{
+    background-image: url(/img/HostingPro2560.png);
+    height: 500px;
+}
+    
+.mainWrapper{
+    font-size: 2.8rem;
+    width: 45%;
+}
+
+.mainTitle{
+   line-height: 2.8rem;
+}
+
+} 
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .mainWrapper{
+    font-size: 3.0rem;
+    width: 50%;
+}
+
+.mainTitle{
+   line-height: 3.0rem;
+}
+
+} 
