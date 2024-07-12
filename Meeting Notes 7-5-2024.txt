@@ -1,0 +1,8 @@
+*Col span
+**Bootstrap Class d-print-none: to not print elements on the page when in the windows printer overview.
+**Bootstrap Carousel
+**Bootstrap Cards
+
+
+****Homework*****
+Coder Tube -See Document Handout

@@ -1,0 +1,9 @@
+**BS Docs: Components -> Accordion/Collapse
+
+*For CSS stylesheets, the last in the file calls will be rendered last.
+
+**Art Direction requires a identifiable focal point.
+
+**BS Docs: Background, Color & Background, colors
+**BS Docs: CSS Variables
+**BS Docs: Media Queries
